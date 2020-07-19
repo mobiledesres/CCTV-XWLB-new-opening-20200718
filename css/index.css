@@ -1,0 +1,33 @@
+.doc__html {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+
+	margin: 0;
+	overflow: auto;
+
+	background-color: black;
+}
+
+.doc__body, .doc__main {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	overflow: auto;
+}
+
+.main_video {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	height: 100%;
+}
